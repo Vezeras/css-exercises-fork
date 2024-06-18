@@ -23,3 +23,21 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/*The specifiity of the header class and a main body class 
+is redundant, and incompetent in every capacity. They
+should be treated similarly due to the body encompassing
+the entireity of the content in question*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+  margin: 0px;
+  padding: 0px;
+}
